@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background-image: url("https://64.media.tumblr.com/678238c2f079e5fe58f4f60c84c56a54/tumblr_ojdy3d51iB1s495d2o1_1280.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tablet {
+  position: relative;
+  width: 532px;
+  height: 90vh;
+  top: 40px;
+  margin: auto;
+  border: 16px black solid;
+  border-top-width: 60px;
+  border-bottom-width: 60px;
+  border-radius: 36px;
+}
+
+.tablet:before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 10px;
+}
+
+.home {
+  display: block;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 50%;
+  bottom: -65px;
+  transform: translate(-50%, -50%);
+  background: #333;
+  border-radius: 50%;
+}
+
+.tablet .content {
+  width: 500px;
+  height: 609px;
+  background-image: url("https://i.pinimg.com/originals/f0/6d/49/f06d4925892249af08a26c39cd043565.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.weather-app {
+  display: block;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  margin: 3%;
+  border-radius: 25%;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/4052/4052984.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.app-content {
+  width: 500px;
+  height: 609px;
+  background-image: url("https://64.media.tumblr.com/7e8cd2720a99d23c8d16da179f65dc6e/tumblr_pd8dn7DK9A1xchla7o1_500.gifv");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login, .signup {
+  background-color: rgba(255, 255, 255, 0.633);
+  padding: 3%;
+  border-radius: 25%;
+}
+
+.user-interface {
+  background-color: white;
+  height:500px;
+  width: 450px;
+  padding: 3%;
+  border-radius: 10%;
+  font-size: 70%;
+}
+
+.submission {
+  border: none;
+  margin: 2%;
+  background-color: none;
+}
+
+.submission:hover{
+  background-color:aliceblue;
+  border: solid;
+  border-radius: 10%;
+}
+
+button {
+  border: none;
+  background-color: white;
+  outline: none !important;
+}
+
+.faves {
+  border-right: rgba(51, 51, 51, 0.368) solid;
+}
+
+.card {
+  border: none;
+  font-size: 14px;
+  height: 375px;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+}
+
+.card-body {
+  text-align: left;
+}
+
+.slider {
+  height: 150px;
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  overflow-y: auto;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+::-webkit-scrollbar { 
+  display: none;
+}
+
+.hourly {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.faves {
+  font-size: 15px;
+  border: none;
+}
+
+.fa-star {
+  color: rgb(200, 200, 84);
+}
+
+.fa-eye {
+  position: absolute;
+  top: 38.5vh;
+  left: 21vw;
+}
+
+.fa-eye:hover {
+  color: red;
+}
+
